@@ -1,0 +1,25 @@
+{
+  "name": "agent_github",
+  "version": "1.0.0",
+  "description": "our agent makes the requests to the GitHub API and saves a correspondant minified json file",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --debug-brk",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "dirty-chai": "^2.0.1",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.0.2",
+    "eslint-plugin-import": "^2.7.0",
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "github-publish": "^2.0.0",
+    "superagent": "^3.6.3",
+    "superagent-throttle": "^0.2.5"
+  }
+}
